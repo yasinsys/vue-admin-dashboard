@@ -1,9 +1,11 @@
-name: Deploy Vue App to GitHub Pages
+name: Add GitHub Pages deployment workflow
 
 on:
   push:
     branches:
-      - main
+      - main  # or "master" depending on your default branch name
+  workflow_dispatch: # This allows you to run it manually for testing
+
 
 permissions:
   contents: read
