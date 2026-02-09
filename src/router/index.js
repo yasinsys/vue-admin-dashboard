@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import MainLayout from '../layouts/MainLayout.vue'
 import Contact from '../views/Contact.vue'
 import Dashboard from '../views/Dashboard.vue'
@@ -6,7 +6,7 @@ import Users from '../views/Users.vue'
 import Login from '../views/Login.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/login',
