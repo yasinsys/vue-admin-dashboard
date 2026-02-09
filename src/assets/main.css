@@ -1,0 +1,41 @@
+/* DARK MODE */
+.dark-mode {
+  background-color: #121212;
+  color: #e4e4e4;
+}
+
+/* Cards */
+.dark-mode .card {
+  background-color: #1e1e1e;
+  border-color: #2c2c2c;
+}
+
+/* Tables */
+.dark-mode table {
+  color: #e4e4e4;
+}
+
+.dark-mode th {
+  background: #1f1f1f;
+}
+
+/* Inputs */
+.dark-mode input,
+.dark-mode select {
+  background: #1e1e1e;
+  color: #e4e4e4;
+  border-color: #333;
+}
+
+/* Buttons */
+.dark-mode .btn-primary {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbar {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
